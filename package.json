@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/asyncapi/nodejs-template#readme",
   "scripts": {
-    "test": "rimraf test/temp && jest --modulePathIgnorePatterns='./template'",
+    "test": "rimraf test/temp && jest --modulePathIgnorePatterns='./template' --verbose",
     "test:updateSnapshot": "rimraf test/temp && jest --updateSnapshot --modulePathIgnorePatterns='./template'",
     "test:example": "node test/example/script.js",
     "lint": "eslint --max-warnings 0 --config .eslintrc .",
@@ -47,6 +47,7 @@
     "eslint-plugin-jest": "^25.7.0",
     "eslint-plugin-sonarjs": "^0.11.0",
     "jest": "^27.5.1",
+    "jsonrepair": "^3.13.1",
     "node-fetch": "^2.7.0",
     "rimraf": "^5.0.5"
   },

@@ -7,6 +7,7 @@ export default function packageFile({ asyncapi, params }) {
     dotenv: '8.1.0',
     hermesjs: '2.x',
     'hermesjs-router': '1.x',
+    jsonrepair: '^3.13.1',
     'node-fetch': '2.6.0',
     'node-yaml-config': '0.0.4',
   };
